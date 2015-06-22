@@ -1,0 +1,29 @@
+#yolo
+{
+position: relative;
+background-image: url("springsteen/background-smaller.png");
+width: 540px;
+height: 540px;
+border: 2px;
+font-family: sans-serif;
+border-style: solid;
+border-width: 2px;
+}
+
+#name
+{
+position: absolute;
+top: 235px;
+right: 6px;
+font-size: 22px;
+color: #CC9900;
+}
+
+#bruce
+{
+position: absolute;
+top: 0px;
+right: 6px;
+font-size: 50px;
+color: #CC9900;
+}

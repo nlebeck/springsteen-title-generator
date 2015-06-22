@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Bruce Springsteen song title generator</title>
+<link rel="stylesheet" type="text/css" href="springsteen-style.css">
+
+<script>
+function randInt(n) {
+    return Math.floor(Math.random() * n);
+}
+
+function generateTitle() {
+    var wordsA =
+    [
+    "Running",
+    "Racing",
+    "Working",
+    "Dancing",
+    "Darkness",
+    "Fire",
+    "Death",
+    "Glory",
+    "Serenade",
+    "Angel",
+    "Lost",
+    "Drive",
+    "Born"
+    ];
+    var wordsB =
+    [
+    "New York",
+    "Philadelphia",
+    "New Jersey",
+    "Atlantic City",
+    "the Street",
+    "the Edge of Town",
+    "my Hometown",
+    "10th Avenue",
+    "the Night",
+    "the Backstreet",
+    "the River",
+    "the Refinery",
+    "the Factory",
+    "the Ranch",
+    "the Highway",
+    "the Hill",
+    "Nebraska",
+    "E Street",
+    "the Darkness",
+    "Fire"
+    ];
+    var wordsBPrep =
+    ["in","in", "in", "in", "in", "on", "in", "on", "in", "on", "on", "in", "in", "on", "in",
+     "on", "in", "on", "in", "in"];
+    var wordsC = ["Wild", "Innocent", "Hungry", "Dark", "Promised"];
+    var wordsD = ["Cadillac", "Train", "Ranch", "Highway", "Street", "Hometown", "Night",
+                    "Land", "Jungle"];
+    var wordsE = ["Highways", "Streets", "Cadillacs", "Spirit"];
+
+
+    var structure = Math.random();
+    var songTitle = ""
+    if (structure < 0.6) {
+        var indexA = randInt(wordsA.length);
+        var indexB = randInt(wordsB.length);
+        songTitle = songTitle + wordsA[indexA] + " " + wordsBPrep[indexB]
+                    + " " + wordsB[indexB];
+    }
+    else if (structure < 0.8) {
+        var indexC = randInt(wordsC.length);
+        var indexD = randInt(wordsD.length);
+        songTitle = songTitle + wordsC[indexC] + " " + wordsD[indexD];
+    }
+    else if (structure < 1) {
+        var indexE = randInt(wordsE.length);
+        var indexB = randInt(wordsB.length);
+        songTitle = songTitle + wordsE[indexE] + " of " + wordsB[indexB];
+    }
+    else {
+        songTitle = "Test Song Title"
+    }
+    document.getElementById('songName').innerHTML = songTitle
+}
+</script>
+
+</head>
+<body>
+
+<h1>Bruce Springsteen song title generator</h1>
+
+<button type="button"
+onclick="generateTitle()">
+Generate song title</button>
+
+<div id = "yolo">
+<div id = "bruce" align="right">
+<p id="bruceName">Bruce<br>Springsteen</p>
+</div>
+<div id = "name">
+<p id="songName"></p>
+</div>
+</div>
+</body>
+</html>
