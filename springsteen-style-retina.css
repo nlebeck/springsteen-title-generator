@@ -1,5 +1,6 @@
 body
 {
+background-color: #DDDDFF;
 }
 
 #titleDiv
@@ -7,6 +8,7 @@ body
 text-align: center;
 font-family: sans-serif;
 font-size: 24px;
+color: #880000;
 }
 
 #albumDiv

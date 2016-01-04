@@ -1,10 +1,13 @@
 body
 {
+background-color: #DDDDFF;
 }
 
 #titleDiv
 {
 text-align: center;
+font-family: sans-serif;
+color: #880000;
 }
 
 #albumDiv
