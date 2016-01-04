@@ -5,6 +5,8 @@ body
 #albumDiv
 {
 position: relative;
+margin-left: auto;
+margin-right: auto;
 background-image: url("springsteen-background-smaller.png");
 width: 540px;
 height: 540px;
@@ -37,6 +39,8 @@ color: #CC9900;
 margin-top: 50px;
 margin-left: auto;
 margin-right: auto;
+text-align: center;
+width: 540px;
 }
 
 #button
