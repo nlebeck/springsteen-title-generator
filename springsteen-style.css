@@ -2,6 +2,11 @@ body
 {
 }
 
+#titleDiv
+{
+text-align: center;
+}
+
 #albumDiv
 {
 position: relative;
