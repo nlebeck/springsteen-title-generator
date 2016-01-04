@@ -1,0 +1,52 @@
+body
+{
+}
+
+#titleDiv
+{
+text-align: center;
+}
+
+#albumDiv
+{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+background-image: url("springsteen-background-smaller.png");
+width: 540px;
+height: 540px;
+border: 2px;
+font-family: sans-serif;
+border-style: solid;
+border-width: 2px;
+}
+
+#songNameDiv
+{
+position: absolute;
+top: 235px;
+right: 6px;
+font-size: 22px;
+color: #CC9900;
+}
+
+#bruceNameDiv
+{
+position: absolute;
+top: 0px;
+right: 6px;
+font-size: 50px;
+color: #CC9900;
+}
+
+#buttonDiv
+{
+margin-top: 50px;
+text-align: center;
+}
+
+#button
+{
+font-size: 36px;
+font-family: sans-serif;
+}
