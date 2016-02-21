@@ -1,6 +1,7 @@
 #titleDiv
 {
-font-size: 16px;
+font-size: 12px;
+display: none;
 }
 
 #albumDiv
@@ -19,6 +20,11 @@ font-size: 18px;
 #bruceNameDiv
 {
 font-size: 38px;
+}
+
+#buttonDiv
+{
+margin-top: 10px;
 }
 
 #button
