@@ -23,7 +23,10 @@ function generateTitle() {
     "Wreck",
     "Meeting",
     "Thunder",
-    "Love"
+    "Love",
+    "Opera",
+    "Hustling",
+    "Romance"
     ];
     var wordsB =
     [
@@ -49,11 +52,38 @@ function generateTitle() {
     "Fire",
     "the City",
     "the Flood",
-    "57th Street"
+    "57th Street",
+    "the Turnpike",
+    "the Alley"
     ];
     var wordsBPrep =
-    ["in","in", "in", "in", "in", "on", "in", "on", "in", "on", "Across", "in", "in", "on", "in",
-     "on", "in", "on", "in", "in", "in", "in", "on"];
+    [
+    "in",
+    "in",
+    "in",
+    "in",
+    "in",
+    "on",
+    "in",
+    "on",
+    "in",
+    "on",
+    "Across",
+    "in",
+    "in",
+    "on",
+    "in",
+    "on",
+    "in",
+    "on",
+    "in",
+    "in",
+    "in",
+    "in",
+    "on",
+    "on",
+    "in"
+    ];
     var wordsC = ["Wild", "Innocent", "Hungry", "Dark", "Promised", "Stolen", "Ruined",
                     "Runaway", "Lonesome", "Empty", "Rising", "Thunder", "Outlaw",
                     "Shackled", "Lucky"];
