@@ -61,7 +61,7 @@ function generateTitle() {
                     "Land", "Jungle", "Flood", "Spirit", "Road", "Promises", "Machine",
                     "River", "Car", "Heart", "Factory", "City", "Freeze-Out",
                     "Angel", "Sky", "Love"];
-    var wordsE = ["Highways", "Streets", "Cadillacs", "Spirit", "Saints", "Soul", "Queen", "Kingdom"];
+    var wordsE = ["Highways", "Streets", "Cadillacs", "Spirit", "Saints", "Soul"];
 
 
     var structure = Math.random();
