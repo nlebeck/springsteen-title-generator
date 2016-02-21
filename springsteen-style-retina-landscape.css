@@ -1,0 +1,27 @@
+#titleDiv
+{
+font-size: 16px;
+}
+
+#albumDiv
+{
+background-image: url("springsteen-background-retina-landscape.png");
+width: 405px;
+height: 405px;
+}
+
+#songNameDiv
+{
+top: 170px;
+font-size: 18px;
+}
+
+#bruceNameDiv
+{
+font-size: 38px;
+}
+
+#button
+{
+font-size: 24px;
+}
