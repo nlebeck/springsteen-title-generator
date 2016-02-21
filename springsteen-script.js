@@ -23,7 +23,6 @@ function generateTitle() {
     "Wreck",
     "Meeting",
     "Thunder",
-    "Love",
     "Opera",
     "Hustling",
     "Romance"
@@ -90,7 +89,7 @@ function generateTitle() {
     var wordsD = ["Cadillac", "Train", "Ranch", "Highway", "Street", "Hometown", "Night",
                     "Land", "Jungle", "Flood", "Spirit", "Road", "Promises", "Machine",
                     "River", "Car", "Heart", "Factory", "City", "Freeze-Out",
-                    "Angel", "Sky", "Love"];
+                    "Angel", "Sky"];
     var wordsE = ["Highways", "Streets", "Cadillacs", "Spirit", "Saints", "Soul"];
 
 
