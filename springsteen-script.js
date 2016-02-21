@@ -22,7 +22,8 @@ function generateTitle() {
     "Out",
     "Wreck",
     "Meeting",
-    "Thunder"
+    "Thunder",
+    "Love"
     ];
     var wordsB =
     [
@@ -51,17 +52,21 @@ function generateTitle() {
     "57th Street"
     ];
     var wordsBPrep =
-    ["in","in", "in", "in", "in", "on", "in", "on", "in", "on", "on", "in", "in", "on", "in",
+    ["in","in", "in", "in", "in", "on", "in", "on", "in", "on", "Across", "in", "in", "on", "in",
      "on", "in", "on", "in", "in", "in", "in", "on"];
-    var wordsC = ["Wild", "Innocent", "Hungry", "Dark", "Promised", "Stolen"];
+    var wordsC = ["Wild", "Innocent", "Hungry", "Dark", "Promised", "Stolen", "Ruined",
+                    "Runaway", "Lonesome", "Empty", "Rising", "Thunder", "Outlaw",
+                    "Shackled", "Lucky"];
     var wordsD = ["Cadillac", "Train", "Ranch", "Highway", "Street", "Hometown", "Night",
-                    "Land", "Jungle", "Flood", "Spirit", "Road"];
-    var wordsE = ["Highways", "Streets", "Cadillacs", "Spirit", "Saints"];
+                    "Land", "Jungle", "Flood", "Spirit", "Road", "Promises", "Machine",
+                    "River", "Car", "Heart", "Factory", "City", "Freeze-Out",
+                    "Angel", "Sky", "Love"];
+    var wordsE = ["Highways", "Streets", "Cadillacs", "Spirit", "Saints", "Soul", "Queen", "Kingdom"];
 
 
     var structure = Math.random();
     var songTitle = ""
-    if (structure < 0.6) {
+    if (structure < 0.5) {
         var indexA = randInt(wordsA.length);
         var indexB = randInt(wordsB.length);
         songTitle = songTitle + wordsA[indexA] + " " + wordsBPrep[indexB]
